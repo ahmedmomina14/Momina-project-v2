@@ -1,129 +1,438 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Momina's Portfolio
-        </title>
-        <meta utf="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1" >
-        <link rel="stylesheet" href="./css/style.css" type="text/css" >
-        <script defer src="./js/script.js" type="text/javascript"></script>
-    </head>
-    <body>
-        <div class="container-fluid">  
-            <div class="row-column">
-                <div class="col">
-                    <header class="main-header">
-                        <button id="hamburger-menu">
-                            <img src="./images/hamburger-menu.png" width="64" height="64" alt="hamburger menu image">
-                        </button>
-                        <nav id="main-navigation">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        Home
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Team Member 1 Portfolio
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Team Member 2 Portfolio
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <h1>
-                            Momina's Portfolio
-                        </h1>
-                    </header>
-                </div>
-                <div class="col">
-                    <main>
-                        <section class="skills">
-                            <!-- add technlogies you worked with and what you developed using them -->
-                            <header>
-                                <h2>
-                                  Skills in general
-                                </h2>
-                            </header>
-                            <ul>
-                                <li>
-                                    HTML
-                                </li>
-                                <li>
-                                    Badminton
-                                </li>
-                                <li>
-                                    Creating mod games
-                                </li>
-                                <li>
-                                    Python
-                                </li>
-                                <li>
-                                    Reading fantasy books
-                                </li>
-                                <li>
-                                Canva
-                                </li>
-                            </ul>
-                        </section>
-                        <section id="project-showcase">
-                            <header>
-                                <h2>
-                                    Projects Showcase
-                                </h2>
-                            </header>
-                            <!-- add projects here -->
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col">
-                                        <article class="projects project-circle">
-                                            <p class="project-title">
-                                                Roblox
-                                            </p>
-                                            <img class="project-img" width=200 height=200  <img src="./images.png" alt="Roblox image">
-                                            <p class="project-description">
-                                              A favorite interest of mine is playing games such as Roblox. It is very interactive and fun.
-                                              </p>
-                                    </div>
-                                    <div class="col">
-                                        <article class="projects project-circle">
-                                            <p class="project-title">
-                                                Amazon 
-                                            </p>
-                                            <img class="project-img" width=200 height=200  src="./images/amazon.png" alt="Amazon image">
-                                            <p class="project-description">
-                                            Amazon is my go-to when shopping for online items. It is an easy app to use and is versatile.
-                                            </p>
-                                    </div>
-                                    <div class="col">
-                                        <article class="projects project-circle">
-                                            <p class="project-title">
-                                                Sudoku
-                                            </p>
-                                            <img class="project-img" width=200 height=200  <img src="./sudoku.jpeg" alt="Sudoku image">
-                                            <p class="project-description">
-                                               I like playing sudoku because it gives me a good challenge and it enhances my skills.
-                                               </p>
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </main>
-                </div>
-                <div class="col" style="background-color:#ebedf0; text-align: center;">
-                    <footer>
-                        <p>
-                            CopyRight 2026
-                        </p>
-                    </footer>
-                </div>
-            </div>  
-        </div>
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momina's Portfolio</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <header class="main-header">
+
+            <button id="hamburger-menu">
+                <img src="./images/hamburger-menu.png" width="64" height="64" alt="Menu">
+            </button>
+
+            <nav id="main-navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Team Member 1 Portfolio</a></li>
+                    <li><a href="#">Team Member 2 Portfolio</a></li>
+                </ul>
+            </nav>
+
+            <h1>Momina's Portfolio</h1>
+
+        </header>
+
+        <main>
+
+            <!-- Skills -->
+
+            <section class="skills">
+
+                <header>
+                    <h2 class="section-title">Skills in General</h2>
+                    <p class="section-subtitle">
+                        Some of the skills and hobbies I've developed.
+                    </p>
+                </header>
+
+                <ul>
+                    <li>HTML</li>
+                    <li>Python</li>
+                    <li>Canva</li>
+                    <li>Badminton</li>
+                    <li>Creating Mod Games</li>
+                    <li>Reading Fantasy Books</li>
+                </ul>
+
+            </section>
+
+            <!-- Project Showcase -->
+
+            <section id="project-showcase">
+
+                <header>
+                    <h2 class="section-title">My Tech Journey</h2>
+                    <p class="section-subtitle">
+                        My experience throughout Tech Teen Launchpad.
+                    </p>
+                </header>
+
+                <!-- Speak to Your Learning -->
+
+                <article class="project-circle">
+
+                    <h3 class="project-title">
+                        Speak to Your Learning
+                    </h3>
+
+                    <div class="project-img"></div>
+
+                    <p class="project-description">
+                        Write about the topics that stood out to you during Tech Teen Launchpad and explain what you learned from those topics.
+                    </p>
+
+                </article>
+
+                <!-- Speak to Your Progress -->
+
+                <article class="project-circle">
+
+                    <h3 class="project-title">
+                        Speak to Your Progress
+                    </h3>
+
+                    <div class="project-img"></div>
+
+                    <p class="project-description">
+                        Describe how you have grown throughout the course, including new interests in technology, challenges you overcame, and skills you developed.
+                    </p>
+
+                </article>
+
+                <!-- Portfolio Development -->
+
+                <article class="project-circle">
+
+                    <h3 class="project-title">
+                        Portfolio Development
+                    </h3>
+
+                    <div class="project-img"></div>
+
+                    <p class="project-description">
+                        Explain the projects you've created during class or on your own, including your contributions and what you learned while building them.
+                    </p>
+
+                </article>
+
+                <!-- Future Endeavors -->
+
+                <article class="project-circle">
+
+                    <h3 class="project-title">
+                        Future Endeavors
+                    </h3>
+
+                    <div class="project-img"></div>
+
+                    <p class="project-description">
+                        Describe how this course has influenced your future goals, whether that's taking more technology classes, creating personal projects, or exploring careers in tech.
+                    </p>
+
+                </article>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <p>Copyright © 2026 Momina's Portfolio</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momina's Portfolio</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <header class="main-header">
+
+            <button id="hamburger-menu">
+                <img src="./images/hamburger-menu.png" width="64" height="64" alt="Menu">
+            </button>
+
+            <nav id="main-navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Team Member 1 Portfolio</a></li>
+                    <li><a href="#">Team Member 2 Portfolio</a></li>
+                </ul>
+            </nav>
+
+            <h1>Momina's Portfolio</h1>
+
+        </header>
+
+        <main>
+
+            <!-- Skills -->
+
+            <section class="skills">
+
+                <header>
+                    <h2 class="section-title">Skills in General</h2>
+                    <p class="section-subtitle">
+                        Some of the skills and hobbies I've developed.
+                    </p>
+                </header>
+
+                <ul>
+                    <li>HTML</li>
+                    <li>Python</li>
+                    <li>Canva</li>
+                    <li>Badminton</li>
+                    <li>Creating Mod Games</li>
+                    <li>Reading Fantasy Books</li>
+                </ul>
+
+            </section>
+
+            <!-- Project Showcase -->
+
+            <section id="project-showcase">
+
+                <header>
+                    <h2 class="section-title">My Tech Journey</h2>
+                    <p class="section-subtitle">
+                        My experience throughout Tech Teen Launchpad.
+                    </p>
+                </header>
+
+                <!-- Speak to Your Learning -->
+
+                <article class="project-circle">
+
+                    <h3 class="project-title">
+                        Speak to Your Learning
+                    </h3>
+
+                    <div class="project-img"></div>
+
+                    <p class="project-description">
+                        Write about the topics that stood out to you during Tech Teen Launchpad and explain what you learned from those topics.
+                    </p>
+
+                </article>
+
+                <!-- Speak to Your Progress -->
+
+                <article class="project-circle">
+
+                    <h3 class="project-title">
+                        Speak to Your Progress
+                    </h3>
+
+                    <div class="project-img"></div>
+
+                    <p class="project-description">
+                        Describe how you have grown throughout the course, including new interests in technology, challenges you overcame, and skills you developed.
+                    </p>
+
+                </article>
+
+                <!-- Portfolio Development -->
+
+                <article class="project-circle">
+
+                    <h3 class="project-title">
+                        Portfolio Development
+                    </h3>
+
+                    <div class="project-img"></div>
+
+                    <p class="project-description">
+                        Explain the projects you've created during class or on your own, including your contributions and what you learned while building them.
+                    </p>
+
+                </article>
+
+                <!-- Future Endeavors -->
+
+                <article class="project-circle">
+
+                    <h3 class="project-title">
+                        Future Endeavors
+                    </h3>
+
+                    <div class="project-img"></div>
+
+                    <p class="project-description">
+                        Describe how this course has influenced your future goals, whether that's taking more technology classes, creating personal projects, or exploring careers in tech.
+                    </p>
+
+                </article>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <p>Copyright © 2026 Momina's Portfolio</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momina's Portfolio</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <header class="main-header">
+
+            <button id="hamburger-menu">
+                <img src="./images/hamburger-menu.png" width="64" height="64" alt="Menu">
+            </button>
+
+            <nav id="main-navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Team Member 1 Portfolio</a></li>
+                    <li><a href="#">Team Member 2 Portfolio</a></li>
+                </ul>
+            </nav>
+
+            <h1>Momina's Portfolio</h1>
+
+        </header>
+
+        <main>
+
+            <!-- Skills -->
+
+            <section class="skills">
+
+                <header>
+                    <h2 class="section-title">Skills in General</h2>
+                    <p class="section-subtitle">
+                        Some of the skills and hobbies I've developed.
+                    </p>
+                </header>
+
+                <ul>
+                    <li>HTML</li>
+                    <li>Python</li>
+                    <li>Canva</li>
+                    <li>Badminton</li>
+                    <li>Creating Mod Games</li>
+                    <li>Reading Fantasy Books</li>
+                </ul>
+
+            </section>
+
+            <!-- Project Showcase -->
+
+            <section id="project-showcase">
+
+                <header>
+                    <h2 class="section-title">My Tech Journey</h2>
+                    <p class="section-subtitle">
+                        My experience throughout Tech Teen Launchpad.
+                    </p>
+                </header>
+
+                <!-- Speak to Your Learning -->
+
+                <article class="project-circle">
+
+                    <h3 class="project-title">
+                        Speak to Your Learning
+                    </h3>
+
+                    <div class="project-img"></div>
+
+                    <p class="project-description">
+                        Write about the topics that stood out to you during Tech Teen Launchpad and explain what you learned from those topics.
+                    </p>
+
+                </article>
+
+                <!-- Speak to Your Progress -->
+
+                <article class="project-circle">
+
+                    <h3 class="project-title">
+                        Speak to Your Progress
+                    </h3>
+
+                    <div class="project-img"></div>
+
+                    <p class="project-description">
+                        Describe how you have grown throughout the course, including new interests in technology, challenges you overcame, and skills you developed.
+                    </p>
+
+                </article>
+
+                <!-- Portfolio Development -->
+
+                <article class="project-circle">
+
+                    <h3 class="project-title">
+                        Portfolio Development
+                    </h3>
+
+                    <div class="project-img"></div>
+
+                    <p class="project-description">
+                        Explain the projects you've created during class or on your own, including your contributions and what you learned while building them.
+                    </p>
+
+                </article>
+
+                <!-- Future Endeavors -->
+
+                <article class="project-circle">
+
+                    <h3 class="project-title">
+                        Future Endeavors
+                    </h3>
+
+                    <div class="project-img"></div>
+
+                    <p class="project-description">
+                        Describe how this course has influenced your future goals, whether that's taking more technology classes, creating personal projects, or exploring careers in tech.
+                    </p>
+
+                </article>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <p>Copyright © 2026 Momina's Portfolio</p>
+        </footer>
+
+    </div>
+
+</body>
+
 </html>
